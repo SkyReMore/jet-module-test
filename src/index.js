@@ -1,3 +1,5 @@
+import table from '../src/table';
+
 class HelloWorld {
   message = 'Hello World';
   print = () => this.message;
@@ -9,3 +11,5 @@ console.log(
   `%c ${hello.print()}`,
   `color: green; font-size:48px; weight: bold`,
 );
+
+table.test();
